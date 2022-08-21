@@ -34,6 +34,7 @@ Text Engine is a rich-text editing framework for GTK 4. The primary user of this
 %install
 %meson_install
 
+%files
 %license COPYING 
 %doc README.md
 %{_libdir}/text-engine/*
