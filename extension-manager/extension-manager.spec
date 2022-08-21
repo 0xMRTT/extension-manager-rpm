@@ -12,3 +12,12 @@ BuildRequires:  blueprint-compiler
 BuildRequires:  text-engine
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1) 
+
+
+%build
+%meson
+%meson_build
+
+
+%install
+%meson_install
