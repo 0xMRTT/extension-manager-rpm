@@ -8,8 +8,6 @@ Release:   %autorelease
 Summary:   A utility for browsing and installing GNOME Shell Extensions. 
 BuildArch: noarch
 
-#global         tag %%{version}
-%global         branch master
 %forgemeta
 
 License:   GPL-3.0-or-later
