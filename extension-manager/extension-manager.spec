@@ -34,3 +34,20 @@ BuildRequires:  json-glib
 
 %install
 %meson_install
+
+%find_lang %{name}
+
+%check
+appstream-util validate-relax --nonet %{buildroot}%{_datadir}/appdata/%{uuid}.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/%{uuid}.desktop
+
+
+%files -f %{name}.lang
+%license COPYING
+%doc README.md
+%{_bindir}/extension-manager
+%{_datadir}/extension-manager
+%{_datadir}/appdata/%{uuid}.appdata.xml
+%{_datadir}/applications/%{uuid}.desktop
+%{_datadir}/glib-2.0/schemas/%{uuid}.gschema.xml
+%{_datadir}/icons/hicolor/*/*/*.svg
