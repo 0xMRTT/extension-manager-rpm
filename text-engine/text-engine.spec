@@ -14,9 +14,9 @@ Source0:        %{forgesource}
 
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gtk4)
-BuildRequires:  pkgconfig(json-glib) 
-BuildRequires:  pkgconfig(libxml2)
-BuildRequires:  pkgconfig(glib2) >= 2.50
+BuildRequires:  pkgconfig(json-glib-1.0) 
+BuildRequires:  pkgconfig(libxml-2.0)
+BuildRequires:  pkgconfig(glib-2.0) >= 2.50
 
 %description
 Text Engine is a rich-text editing framework for GTK 4. The primary user of this library is bluetype but it can be used wherever rich text display and editing is needed.
