@@ -13,7 +13,7 @@ BuildArch: noarch
 %forgemeta
 
 License:   GPL-3.0-or-later
-URL:       https://github.com/mjakeman/extension-manager
+URL:       https://github.com/mjakeman/extension-manager/
 Source0:   %{forgesource}
 
 BuildRequires:  meson
