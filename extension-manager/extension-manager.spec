@@ -12,7 +12,7 @@ BuildRequires:  blueprint-compiler
 BuildRequires:  text-engine
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1) 
-
+BuildRequires:  libsoup3
 
 %build
 %meson
