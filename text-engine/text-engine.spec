@@ -5,7 +5,6 @@ Name:           text-engine
 Version:        0.1.1
 Release:        %autorelease
 Summary:        A lightweight rich text framework for GTK
-BuildArch:      noarch
 
 %forgemeta
 
