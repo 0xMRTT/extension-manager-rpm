@@ -9,5 +9,6 @@ Source0:   https://github.com/mjakeman/extension-manager/archive/refs/tags/v0.3.
 
 BuildRequires:  meson
 BuildRequires:  blueprint-compiler
+BuildRequires:  text-engine
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1) 
