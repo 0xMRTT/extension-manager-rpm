@@ -13,6 +13,7 @@ BuildRequires:  text-engine
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1) 
 BuildRequires:  libsoup3
+BuildRequires:  json-glib
 
 %build
 %meson
