@@ -21,8 +21,8 @@ BuildRequires:  blueprint-compiler
 BuildRequires:  text-engine
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1) 
-BuildRequires:  libsoup3
-BuildRequires:  json-glib
+BuildRequires:  pkgconfig(libsoup3)
+BuildRequires:  pkgconfig(json-glib)
 
 %prep
 %forgeautosetup
