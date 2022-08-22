@@ -15,6 +15,7 @@ Source0:        %{forgesource}
 BuildRequires:  meson
 BuildRequires:  gcc
 BuildRequires:  pkgconfig(gtk4)
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(json-glib-1.0) 
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.50
