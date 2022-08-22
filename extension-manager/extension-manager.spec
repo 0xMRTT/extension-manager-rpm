@@ -51,7 +51,7 @@ With Extension Manager you can:
 
 
 %check
-appstream-util validate-relax --nonet %{buildroot}%{_datadir}/appdata/%{uuid}.appdata.xml
+appstream-util validate-relax --nonet %{buildroot}%{_datadir}/metainfo/%{uuid}.appdata.xml
 desktop-file-validate %{buildroot}/%{_datadir}/applications/%{uuid}.desktop
 
 
