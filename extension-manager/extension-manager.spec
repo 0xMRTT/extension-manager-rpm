@@ -60,7 +60,7 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/%{uuid}.desktop
 %doc README.md
 %{_bindir}/extension-manager
 %{_datadir}/extension-manager
-%{_datadir}/appdata/%{uuid}.appdata.xml
+%{_datadir}/metainfo/%{uuid}.appdata.xml
 %{_datadir}/applications/%{uuid}.desktop
 %{_datadir}/glib-2.0/schemas/%{uuid}.gschema.xml
 %{_datadir}/icons/hicolor/*/*/*.svg
