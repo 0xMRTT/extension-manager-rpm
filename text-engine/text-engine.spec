@@ -7,7 +7,7 @@ Summary:        A lightweight rich text framework for GTK
 
 %forgemeta
 
-License:        LGPL-2.1-or-later
+License:        LGPL-2.1-or-later AND MPL-2.0
 URL:            https://github.com/mjakeman/text-engine/
 Source0:        %{forgesource}
 
