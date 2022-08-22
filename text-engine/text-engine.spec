@@ -1,4 +1,3 @@
-
 %global         forgeurl https://github.com/mjakeman/text-engine
 
 Name:           text-engine
@@ -22,13 +21,16 @@ BuildRequires:  pkgconfig(glib-2.0) >= 2.50
 
 %package devel
 Summary:        Development libraries and header files for %{name}
-
+Requires:       %{name}%{?_isa} = %{version}-%{release}
 
 %description
-Text Engine is a rich-text editing framework for GTK 4. The primary user of this library is bluetype but it can be used wherever rich text display and editing is needed.
+Text Engine is a rich-text editing framework for GTK 4. The primary user of this
+library is bluetype but it can be used wherever rich text display and editing is
+needed.
 
 %description devel
-%{description}.
+%{summary}.
+
 
 %prep
 %forgeautosetup
@@ -42,17 +44,16 @@ Text Engine is a rich-text editing framework for GTK 4. The primary user of this
 %install
 %meson_install
 
+
 %files
 %license COPYING 
 %doc README.md
 %{_bindir}/text-engine-demo
 %{_libdir}/libtext-engine-0.1.so
-%{_libdir}/pkgconfig/text-engine-0.1.pc
 
 %files devel
-%{_libdir}/libtext-engine-0.1.so
-%{_includedir}/text-engine/*
-
+%{_includedir}/text-engine/
+%{_libdir}/pkgconfig/text-engine-0.1.pc
 
 %changelog
 %autochangelog
