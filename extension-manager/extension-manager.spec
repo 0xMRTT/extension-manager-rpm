@@ -51,7 +51,7 @@ With Extension Manager you can:
 
 
 %check
-appstream-util validate-relax --nonet %{buildroot}%{_datadir}/metainfo/%{uuid}.appdata.xml
+appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/%{uuid}.appdata.xml
 desktop-file-validate %{buildroot}/%{_datadir}/applications/%{uuid}.desktop
 
 
@@ -60,7 +60,7 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/%{uuid}.desktop
 %doc README.md
 %{_bindir}/extension-manager
 %{_datadir}/exm
-%{_datadir}/metainfo/%{uuid}.appdata.xml
+%{_metainfodir}%{uuid}.appdata.xml
 %{_datadir}/applications/%{uuid}.desktop
 %{_datadir}/glib-2.0/schemas/%{uuid}.gschema.xml
 %{_datadir}/icons/hicolor/*/*/*.svg
