@@ -13,6 +13,7 @@ URL:            https://github.com/mjakeman/text-engine/
 Source0:        %{forgesource}
 
 BuildRequires:  meson
+BuildRequires:  gcc
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(json-glib-1.0) 
 BuildRequires:  pkgconfig(libxml-2.0)
