@@ -28,6 +28,7 @@ With Extension Manager you can:
 
 
 BuildRequires:  meson
+BuildRequires:  gcc
 BuildRequires:  blueprint-compiler
 BuildRequires:  text-engine
 BuildRequires:  pkgconfig(gtk4)
