@@ -1,4 +1,4 @@
-%global         forgeurl https://github.com/mjakemanextension-manager
+%global         forgeurl https://github.com/mjakeman/extension-manager
 %global         uuid com.mattjakeman.ExtensionManager
 
 
