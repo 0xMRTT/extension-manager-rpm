@@ -20,6 +20,7 @@ BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1) 
 BuildRequires:  pkgconfig(libsoup-3.0)
 BuildRequires:  pkgconfig(json-glib-1.0)
+BuildRequires:  desktop-file-utils
 
 %description
 A native tool for browsing, installing, and managing GNOME Shell Extensions.
