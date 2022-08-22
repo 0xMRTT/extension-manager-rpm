@@ -17,7 +17,6 @@ Source0:   %{forgesource}
 A native tool for browsing, installing, and managing GNOME Shell Extensions.
 
 With Extension Manager you can:
-
 * Browsing and searching extensions from extensions.gnome.org
 * Installation and Removal
 * Enabling and Disabling
