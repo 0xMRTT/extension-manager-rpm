@@ -18,7 +18,6 @@ BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(json-glib-1.0) 
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.50
-BuildRequires:  desktop-file-utils
 
 %package devel
 Summary:        Development libraries and header files for %{name}
