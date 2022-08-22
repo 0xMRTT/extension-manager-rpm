@@ -39,8 +39,10 @@ Text Engine is a rich-text editing framework for GTK 4. The primary user of this
 %files
 %license COPYING 
 %doc README.md
-%{_libdir}/text-engine/*
-# add others files
+%{_bindir}/text-engine-demo
+%{_includir}/text-engine/*
+%{_libdir}/libtext-engine-0.1.so
+%{_libdir}/pkconfig/text-engine-0.1.pc
 
 %changelog
 %autochangelog
