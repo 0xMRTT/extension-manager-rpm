@@ -59,7 +59,6 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/%{uuid}.desktop
 %license COPYING
 %doc README.md
 %{_bindir}/extension-manager
-%{_datadir}/exm
 %{_metainfodir}%{uuid}.appdata.xml
 %{_datadir}/applications/%{uuid}.desktop
 %{_datadir}/glib-2.0/schemas/%{uuid}.gschema.xml
