@@ -14,6 +14,19 @@ License:   GPL-3.0-or-later
 URL:       https://github.com/mjakeman/extension-manager/
 Source0:   %{forgesource}
 
+%description
+A native tool for browsing, installing, and managing GNOME Shell Extensions.
+
+With Extension Manager you can:
+
+* Browsing and searching extensions from extensions.gnome.org
+* Installation and Removal
+* Enabling and Disabling
+* Updating in-app 
+* Screenshots & Images
+* Ratings & Comments
+
+
 BuildRequires:  meson
 BuildRequires:  blueprint-compiler
 BuildRequires:  text-engine
